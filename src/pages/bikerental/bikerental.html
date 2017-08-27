@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Bike Rental
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<p>INSERT MAP HERE</p>
+
+<!--     <ion-slides>
+      <ion-slide *ngFor="let task of tasks | async"> -->
+<!--       <p>{{task.Name}}</p>
+      <p>Availablity: {{task.Link}}</p> -->
+<ion-item *ngFor="let task of tasks | async">
+  <ion-card>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="bicycle" item-left></ion-icon>
+        {{task.Name}}
+        <br>
+      </ion-item>
+
+      <ion-item text-center>
+        {{task.Status}}
+      </ion-item>
+      <ion-list>
+
+        <ion-item>
+          Becha: {{task.Becha}}
+        </ion-item>
+
+        <ion-item>
+          Fixie: {{task.Fixie}}
+        </ion-item>
+
+        <ion-item>
+          Kids: {{task.Kids}}
+        </ion-item>
+        
+        <ion-item>
+          Mountain: {{task.Mountain}}
+        </ion-item>
+
+        <ion-item>
+          Road: {{task.Road}}
+        </ion-item>
+
+      </ion-list>
+    </ion-list>
+  </ion-card>
+</ion-item>
+<!-- </ion-slide>
+
+</ion-slides> -->
+
+</ion-content>

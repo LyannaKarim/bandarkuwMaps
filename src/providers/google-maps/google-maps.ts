@@ -23,8 +23,7 @@ export class GoogleMapsProvider {
   mapLoadedObserver: any;
   markers: any = [];
   // add your apiKey for GoogleMaps
-  // example: apiKey: string = 'ARfdaDE..';
-  apiKey: string;
+  apiKey: string = 'AIzaSyANBUmAL7UnWBUFRqd3rguIbsTTfi3R1zQ';
 
   constructor(public connectivityService: ConnectivityProvider,
     public geolocation: Geolocation) {

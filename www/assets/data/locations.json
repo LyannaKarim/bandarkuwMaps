@@ -1,0 +1,25 @@
+{
+    "locations": [
+ 
+        {
+            "title": "Lapau",
+            "latitude": 4.893922,
+            "longitude": 114.941835
+        },
+        {
+            "title": "Jabatan Elektrik",
+            "latitude": 4.890636,
+            "longitude": 114.943426
+        },
+        {
+            "title": "Taib",
+            "latitude": 4.889915,
+            "longitude": 114.942892
+        },
+        {
+            "title": "PGGMB",
+            "latitude": 4.890184,
+            "longitude": 114.943427
+        }
+    ]
+}

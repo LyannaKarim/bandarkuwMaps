@@ -627,6 +627,8 @@ var GoogleMapsProvider = (function () {
         this.geolocation = geolocation;
         this.mapInitialised = false;
         this.markers = [];
+        // add your apiKey for GoogleMaps
+        this.apiKey = 'AIzaSyB1PyScmvB0lQVK8zovGaVZRTaBovwKP3A';
     }
     GoogleMapsProvider.prototype.init = function (mapElement, pleaseConnect) {
         this.mapElement = mapElement;
@@ -742,10 +744,10 @@ var GoogleMapsProvider = (function () {
 }());
 GoogleMapsProvider = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__connectivity_connectivity__["a" /* ConnectivityProvider */],
-        __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__connectivity_connectivity__["a" /* ConnectivityProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__connectivity_connectivity__["a" /* ConnectivityProvider */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _b || Object])
 ], GoogleMapsProvider);
 
+var _a, _b;
 //# sourceMappingURL=google-maps.js.map
 
 /***/ }),
